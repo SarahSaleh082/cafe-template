@@ -10,7 +10,7 @@ html{
 :root{
     --main-color: #483434;
     --sec-color: #87AAAA;
-    --main-transition: 3s;
+    --main-transition: 2s;
 }
 body {
     font-family: 'Roboto';
