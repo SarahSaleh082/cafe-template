@@ -10,7 +10,7 @@ html{
 :root{
     --main-color: #483434;
     --sec-color: #87AAAA;
-    --main-transition: 3s;
+    --main-transition: 2s;
 }
 body {
     font-family: 'Roboto';
@@ -32,7 +32,7 @@ section{
     line-height: 1.8;
 }
 .headline{
-    margin: 120px 0;
+    margin: 10px 0;
     padding: 50px 0;
     
     text-align: center;
