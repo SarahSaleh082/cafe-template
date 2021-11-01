@@ -12,6 +12,9 @@ html{
     --sec-color: #87AAAA;
     --main-transition: 3s;
 }
+body {
+    font-family: Tahoma
+}
 ul{
     list-style: none;
     
