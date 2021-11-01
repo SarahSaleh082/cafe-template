@@ -13,7 +13,7 @@ html{
     --main-transition: 3s;
 }
 body {
-    font-family: Tahoma
+    font-family: 'Roboto';
 }
 ul{
     list-style: none;
