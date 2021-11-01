@@ -13,7 +13,7 @@ html{
     --main-transition: 3s;
 }
 body {
-    font-family: Tahoma
+    font-family: 'Fira Sans', sans-serif;
 }
 ul{
     list-style: none;
