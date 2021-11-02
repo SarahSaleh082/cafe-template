@@ -84,8 +84,10 @@ header .info {
 }
 header .info h1 {
   /* width: 50%; */
-  font-size: 5rem;
-  color: var(--sec-color);
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
 }
 header .meta-info {
   display: flex;
