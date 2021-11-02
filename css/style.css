@@ -22,7 +22,8 @@ a {
   text-decoration: none;
 }
 .container {
-  padding: 0 24%;
+  width: 960px;
+  margin: auto;
 }
 section {
   text-align: left;
@@ -32,7 +33,6 @@ section {
 .headline {
   margin: 10px 0;
   padding: 50px 0;
-
   text-align: center;
 }
 .headline h1 {
@@ -47,14 +47,6 @@ span {
 }
 /*========= End Global Styling===========*/
 /*============ Start Header Section ==========*/
-
-header {
-  height: 100vh;
-  background-image: url(../img/up.jpg);
-  /* background-position: center; */
-  background-size: cover;
-  /* background-color: #85603F; */
-}
 nav {
   background-color: var(--main-color);
 }
@@ -76,27 +68,33 @@ nav .nav-list li:hover {
   background-color: var(--sec-color);
   transition: ease all 0.5s;
 }
-
-header .info {
-  width: 50%;
-  margin: 100px 10px;
-  /* background-color: red; */
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 75vh;
+  background-image: url(../img/up.jpg);
+  background-size: cover;
 }
 header .info h1 {
-  /* width: 50%; */
   font-size: 5rem;
-  color: var(--sec-color);
+  color: #fff;
 }
-header .meta-info {
-  display: flex;
-  position: absolute;
-  top: 95%;
-}
+
 header .meta-info p {
+  position: absolute;
   color: #fff;
   background-color: var(--sec-color);
-  padding: 0 20px;
-  margin: 0 90px;
+  padding: 0 30px;
+  bottom: 5%;
+}
+header .meta-info p:first-of-type {
+  right: 5%;
+}
+header .meta-info p:last-of-type {
+  left: 5%;
 }
 /*============ End Header Section ==========*/
 
@@ -115,10 +113,10 @@ header .meta-info p {
   padding: 20px 0;
 }
 #about .content .extra-bio {
-  padding: 20px 0;
+  padding: 20px ;
   margin: 20px 0;
   background-color: #f1f1f1;
-  position: relative;
+  border-left:5px solid #ccc ;
 }
 #about .content .extra-bio::before {
   content: "";
@@ -251,4 +249,8 @@ footer span {
   nav .nav-list .nav-item a:hover {
     padding: 10px;
   }
+}
+
+.img-wrapper  img{
+  width: 100%;
 }
